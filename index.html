@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDV | Official Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <section id="header">
+        <!-- navbar takes the full width of the screen or however it is stretched -->
+        <div class="container-fluid">
+            <!-- makes the navbar responsive  -->
+            <nav class="navbar navbar-expand lg navbar-dark">
+                <!-- BDV logo on the top right -->
+                <a href="#" class="navbar-brand"><img src="/img/White BDV Logo.png"></a>
+                <!-- not sure what this does -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- unordered list on the navar -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#about-content" class="nav-link">About BDV</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Members</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Compeitions</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">BIV</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- main video container -->
+    <div class="video-container">
+        <!-- makes the video go black -->
+        <div class="video-overlay">
+            <video loop muted autoplay poster="">
+            <source src="/video/BDV SI Week Promo Vid_Trim.mov">
+        </video>
+        </div>
+    </div>
+    <!-- landing page text -->
+    <section class="main">
+        <div class="main-content d-flex align-items-center">
+            <!-- keeps text container + bootstrap makes it responsive -->
+            <div class="container text-center">
+                <h1>Benilde Debate Varsity</h1>
+                <span>Defy the Odds</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About us Section -->
+    <section id="about-content" class="row justify-content-center">
+        <div class="col-md text-center">
+            <h1>What is Benilde Debate Varsity?</h1>
+            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members-content" class="row justify-content-center">
+        <div class="col-md text-center">
+            <h2>Coches</h2>
+            This is our main coach
+        </div>
+    </section>
+</body>
+
+<!-- script for those who still use I.E -->
+<script src="/js/object-fit-videos.js"></script>
+
+</html>

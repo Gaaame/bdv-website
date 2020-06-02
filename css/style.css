@@ -1,0 +1,102 @@
+    body {
+        overflow-x: hidden;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* NAVBAR */
+    
+    #header {
+        position: absolute;
+        z-index: 16;
+        width: 100%;
+    }
+    
+    .navbar {
+        padding: 50px 0;
+    }
+    /* the bdv logo on the top right */
+    
+    .navbar-brand {
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    /* made the logo smaller */
+    
+    .navbar-brand img {
+        height: 2rem;
+    }
+    
+    .navbar-dark .navbar-brand {
+        color: white;
+    }
+    /* li items on the navbar */
+    
+    .nav-item {
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+    /* navbar items hover effects */
+    
+    .navbar-dark .navbar-nav .nav-item .nav-link:hover {
+        background: #dcdde1;
+        color: #262626;
+    }
+    /* LANDING PAGE TEXT */
+    
+    .main-content {
+        background: rgba(0, 0, 0, 0.25);
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+    }
+    /* landing page h1 */
+    
+    .main-content h1 {
+        padding-top: 2%;
+        color: white;
+        font-weight: 600;
+        font-size: 68px;
+        letter-spacing: .2rem;
+        /* text-shadow: .1rem .1rem .8rem black; */
+    }
+    /* landing page span */
+    
+    .main-content span {
+        color: white;
+        font-weight: 300;
+        font-size: 24px;
+        letter-spacing: .2rem;
+        /* text-shadow: .1rem .1rem .8rem black; */
+    }
+    /* About us Text */
+    
+    #about-content {}
+    /* VIDEO STUFF */
+    
+    .video-container {
+        position: relative;
+    }
+    
+    .video-container video {
+        height: 100vh;
+        width: 100%;
+        background-position: absolute;
+        z-index: 1;
+        object-fit: cover;
+    }
+    
+    @media (max-width: 768px) {
+        .caption h1 {
+            font-size: 3rem;
+            letter-spacing: .2rem;
+            padding-bottom: 1rem;
+        }
+    }
